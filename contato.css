@@ -123,3 +123,17 @@ span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;}
 }
 
 
+@media(max-width: 1280px){
+    .footer-navigation {display: block;}
+    
+    nav {display: none; }
+
+    .imgbanner {background-position: 40%; margin-left: 380px;}
+
+    .all {display: flex; flex-direction: column; margin-left: 140px;}
+
+    .form-contact {background-position: 10%; margin-left: 380px;}
+
+    .input[type="submit"] {width: 100%; margin-top: 30px;}
+
+}
