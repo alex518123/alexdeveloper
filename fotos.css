@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {margin: 0; padding: 0; list-style: none; text-decoration: none; background-color: black;}
+
+
+header {height: 90px; display: flex; justify-content: space-around; align-items: center; background-color: black;}
+
+nav {width: 60%;}
+
+ul {display: flex; width: 100%; justify-content: space-between;}
+
+li {list-style: none; color: aliceblue; cursor: pointer; font-size: 16px; transition: .5s; 
+    font-family: 'Kdam Thmor Pro' , sans-serif;}
+
+li:hover {color: #d21617;}
+
+#logo {width: 145px; height: auto;}
+
+
+
+
+
+.actors-cards-container {width: 100%; display: flex; justify-content: center; margin-top: 0px; margin-bottom: 0px; background-image: url('https://4kwallpapers.com/images/wallpapers/the-batman-2022-movies-red-background-dark-background-dc-2560x1440-7414.jpg');
+background-size: cover}
+
+.cards-content {width: 90%; display: grid; grid-template-columns: repeat(3, 1fr); row-gap: 30px; column-gap: 50px;
+margin-top: 40px; margin-bottom: 40px;}
+
+.card {width: 100%; height: 250px; background-size: cover; background-position: 50% 50%; border-radius: 5px; cursor: pointer;
+transition: .1s; display: flex; justify-content: flex-end; padding: 0 0 20px 20px; color: #fff; font-size: 17px; 
+font-family: 'Kdam Thmor Pro' , sans-serif;}
+
+.banner1 {background-image: url('https://images2.alphacoders.com/120/thumbbig-1209249.webp');}
+
+.banner2 {background-image: url('https://images6.alphacoders.com/121/thumbbig-1210774.webp');}
+
+.banner3 {background-image: url('https://images.alphacoders.com/121/1213922.jpg');}
+
+.banner4 {background-image: url('https://images8.alphacoders.com/120/thumbbig-1204347.webp');}
+
+.banner5 {background-image: url('https://images.alphacoders.com/119/thumbbig-1199763.webp');}
+
+.banner6 {background-image: url('https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/03/batman-como-um-dodge-charger-1968-virou-o-novo-batmovel.jpg');}
+
+.banner7 {background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/ae8f25ca-9984-11ec-aa6e-9587410378a2/charada-paul-dano.jpg');}
+
+.banner8 {background-image: url('https://rollingstone.uol.com.br/media/uploads/colin_farrell_como_pinguim_em_the_batman_foto_divulgacao-1920x1080.jpg');}
+
+.banner9 {background-image: url('https://universoheroico.com.br/wp-content/uploads/2022/01/Imagem-do-filme-The-Batman-com-Robert-Pattinson.jpg');}
+
+.banner10 {background-image: url('https://cdn.ome.lt/2z4zc_hHowctlysxzQQU57bl6tE=/1200x630/smart/extras/conteudos/the-batman-duracao-confirmada.jpg');}
+
+.banner11 {background-image: url('https://images5.alphacoders.com/120/1206049.jpg');}
+
+.banner12 {background-image: url('https://sm.ign.com/ign_br/screenshot/default/batman-robert-pattinson-filme-5_zua6.png');}
+
+
+
+
+
+
+
+footer {height: 250px; margin-top: 50px; display: flex; flex-direction: column; align-items: center; 
+    justify-content: space-around; background-color: black;}
+    
+    span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;} 
+    
+    .footer-navigation {display: none;}
+    
+    .footer-list {display: flex; flex-direction: column; align-items: center;}
+
+
+
+
+    
