@@ -89,7 +89,7 @@ span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;}
     
     nav {display: none; }
 
-    #banner {background-position: 40%;}
+    #banner {background-position: 10%;}
 
     #trailer-container {width: 100%; height: 400px; display: flex; flex-direction: column;}
 
@@ -103,7 +103,7 @@ span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;}
 
     .button {width: 100%; margin-top: 30px;}
 
-    .cards-content {grid-template-columns: 1fr; margin-top: 150px;}
+    .cards-content {grid-template-columns: 1fr; margin-top: 70px;}
 }
 
 

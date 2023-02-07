@@ -61,15 +61,27 @@ font-family: 'Kdam Thmor Pro' , sans-serif;}
 
 
 footer {height: 250px; margin-top: 50px; display: flex; flex-direction: column; align-items: center; 
-    justify-content: space-around; background-color: black;}
+justify-content: space-around; background-color: black;}
     
-    span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;} 
+span {color: #fff; font-family: 'Kdam Thmor Pro' , sans-serif;} 
     
-    .footer-navigation {display: none;}
+.footer-navigation {display: none;}
     
-    .footer-list {display: flex; flex-direction: column; align-items: center;}
+.footer-list {display: flex; flex-direction: column; align-items: center;}
+    
+
+
+
+@media(max-width: 768px){
+    .footer-navigation {display: block;}
+    
+    nav {display: none; }
+
+    .cards-content {grid-template-columns: 1fr; margin-top: 20px; margin-right: 25px;}
+}
+ 
 
 
 
 
-    
+
